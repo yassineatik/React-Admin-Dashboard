@@ -111,8 +111,12 @@ function ExpandedCard({ param, setExpanded }) {
             layoutId='expandableCard'
         >
 
-            <div onClick={setExpanded}>
-                <UilTimes />
+            <div onClick={setExpanded}
+                style={{ alignSelf: 'flex-end', cursor: 'pointer', color: 'white' }}
+
+            >
+                <UilTimes
+                />
             </div>
             <span>{param.title}</span>
             <div className="chartContainer">

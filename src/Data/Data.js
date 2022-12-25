@@ -84,4 +84,24 @@ export const CardsData = [
             },
         ],
     },
+];
+
+export const UpdatesData = [
+    {
+        img: img1,
+        name: "Andrew Thomas",
+        noti: "Has ordered Apple smart watch",
+        time: "25seconds ago",
+    },
+    {
+        img: img2,
+        name: "James Bond",
+        noti: "Has received Samsung gadget",
+        time: "25seconds ago",
+    }, {
+        img: img3,
+        name: "Andrew Thomas",
+        noti: "Has ordered Apple smart watch",
+        time: "25seconds ago",
+    },
 ]
